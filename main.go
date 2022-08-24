@@ -1,7 +1,7 @@
 package main
 
 import (
-	"awesomeProject/Login/gitalura/routes"
+	"awesomeProject/Login/ProjetoGolang-fiber-postgres/routes"
 	"net/http"
 )
 

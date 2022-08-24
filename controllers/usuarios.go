@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"awesomeProject/Login/gitalura/models"
+	"awesomeProject/Login/ProjetoGolang-fiber-postgres/models"
 	"html/template"
 	"log"
 	"net/http"

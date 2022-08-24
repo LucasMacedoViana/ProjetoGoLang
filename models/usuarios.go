@@ -1,6 +1,6 @@
 package models
 
-import "awesomeProject/Login/gitalura/db"
+import "awesomeProject/Login/ProjetoGolang-fiber-postgres/db"
 
 type Usuario struct {
 	Id         int
