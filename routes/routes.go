@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"awesomeProject/Login/ProjetoGolang-fiber-postgres/controllers"
+	"awesomeProject/Login/gitalura/controllers"
 	"net/http"
-	"github.com/gofiber/fiber/v2"
+	//"github.com/gofiber/fiber/v2"
 )
 
 func CarregaRotas() {
@@ -15,5 +15,5 @@ func CarregaRotas() {
 	http.HandleFunc("/edit", controllers.Edit)
 	http.HandleFunc("/update", controllers.Update)
 
-	app.Get("/", controllers.Index)
+	//app.Get("/", controllers.Index)
 }
